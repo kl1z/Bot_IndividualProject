@@ -5,6 +5,7 @@ import tensorflow as tf
 from keras.applications.mobilenet_v2 import MobileNetV2
 from keras.models import Model
 
+
 def image_net_classification():
     try:
 
