@@ -15,7 +15,7 @@ def image_net_classification():
         model = MobileNetV2()
         obj = model.predict(img).argmax()
 
-        with open('data/ImageNetClasses.txt') as file:
+        with open('data/classes/ImageNetClasses.txt') as file:
             data = file.readlines()
 
         if obj != 999 or obj >= 0:
